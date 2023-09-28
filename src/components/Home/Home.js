@@ -11,6 +11,7 @@ export default function Home() {
         </video>
         <div className="image-spot">
           <img alt="ROMPALA-CREATIVE" className="rompala-logo" src={require('../images/rompala-white.png')} />
+          <h2 className="coming-soon">... COMING SOON on 11/12/23 ...</h2>
         </div>
       </div>
 
