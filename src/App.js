@@ -4,9 +4,9 @@ import { ApolloClient, ApolloProvider, InMemoryCache, createHttpLink } from "@ap
 import { setContext } from "@apollo/client/link/context";
 
 import Home from "./components/Home/Home";
-import Navbar from "./components/Navbar/Navbar";
+//import Navbar from "./components/Navbar/Navbar";
 import Contact from "./pages/Contact";
-import Footer from "./components/footer/footer";
+//import Footer from "./components/footer/footer";
 import SocialMedia from "./pages/SocialMedia";
 import WebDesign from "./pages/WebDesign";
 import VideoPhoto from './pages/VideoPhoto';
