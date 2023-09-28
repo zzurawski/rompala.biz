@@ -35,7 +35,7 @@ function App() {
     return (
         <ApolloProvider client={client}>
             <Router>
-                <Navbar />
+                
                 <Routes>
                     <Route path={"/"} element={<Home />} />
                     <Route path={"/socialmedia"} element={<SocialMedia />} />
@@ -45,7 +45,7 @@ function App() {
                     <Route path={"/contact"} element={<Contact />} />
                     <Route path={"*"} element={<h1>No Content Found</h1>} />
                 </Routes>
-                <Footer />
+                
             </Router>
             
         </ApolloProvider>
