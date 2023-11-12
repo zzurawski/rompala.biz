@@ -1,0 +1,81 @@
+.branding-div{
+    text-align: center;
+    padding: 2% 0;
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Brixton_Wood';
+    border-bottom: 1px solid white;
+}
+
+.branding-header{
+    font-size: 200px;
+    background: url('../images/Header\ banner.jpg');
+    background-size: cover;
+    padding: 5% 0;
+}
+
+.branding-body{
+    font-family: 'Brixton_Wood';
+    padding: 2% 15%;
+}
+
+.logobrand h2{
+    font-family: 'Brixton_Wood';
+    font-size: 50px;
+}
+
+.logobrand p{
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.logobrand img{
+    max-width: 25%;
+    padding: 1% 1%;
+}
+
+.print{
+    padding: 10% 15%;
+}
+
+.print h2{
+    font-size: 50px;
+    font-family: 'Brixton_Wood';
+}
+
+.print img{
+    padding-top: 2%;
+    max-width: 80%;
+}
+
+@media (max-width: 760px) {
+    .branding-div{
+        min-height: 100vh;
+    }
+
+    .branding-body h2{
+        padding-top: 5%;
+        font-size: 24px;
+        letter-spacing: 2px;
+        width: 100%;
+    }
+
+    .logobrand img{
+        margin: 1%;
+        width: 100%;
+    }
+
+    .logobrand p{
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+
+    .print h2{
+        width: 100%;
+        padding: 0;
+    }
+
+    .print img{
+        min-width: 100%;
+    }
+}

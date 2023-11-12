@@ -9,9 +9,9 @@ export default function Footer() {
             </div>
 
             <div className="social-media-links">
-                <img className="sm-link" alt="facebook" src={require('../images/fb-logo.png')} />
-                <img className="sm-link" alt="instagram" src={require('../images/insta.png')} />
-                <img className="sm-link" alt="linkedin" src={require('../images/linkedin.png')} />
+                <a href="https://www.facebook.com/profile.php?id=61551693846741&mibextid=LQQJ4d"><img className="sm-link" alt="facebook" src={require('../images/fb-logo.png')} /></a>
+                <a href="https://instagram.com/rompalacreativemedia?igshid=NmRjZnZ4NW13aHEz"><img className="sm-link" alt="instagram" src={require('../images/insta.png')} /></a>
+                <a href="https://www.linkedin.com/company/rompala-creative-media?trk=public_profile_topcard-current-company"><img className="sm-link" alt="linkedin" src={require('../images/linkedin.png')} /></a>
                 <img className="sm-link" alt="youtube" src={require('../images/yt-icon2.png')} />
             </div>
 

@@ -1,59 +1,51 @@
-.contact-div {
-    
-    align-content: center;
-    padding-top: 3%;
-    background: linear-gradient(
-        100deg,
-        rgb(0, 0, 0),
-        rgb(148, 19, 19),
-        rgb(255, 30, 30),
-        rgb(145, 14, 14)
-    );
-    height: 100vh;
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+.contact-div{
+    text-align: center;
+    background-color: black;
     color: whitesmoke;
-    padding: 10px 10px ;
-    border: 2px groove black;
+    font-family: 'Brixton_Wood';
+    border-bottom: 1px solid white;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    
 }
 
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
+.contact-header{
+    background: url('../images/Header\ banner.jpg');
+    font-size: 150px;
+    background-size: 100%;
+    padding: 2% 0;
+}
+
+.contact-body h2{
+    padding-bottom: 10%;
+    padding-top: 5%;
+    font-family: 'Brixton_Wood';
+    font-size: 120px;
+    
+}
+
+.type{
+    font-family: 'Arial Narrow';
+    font-size: 60px;
+    padding: 0;
+}
+
+.input{
+    font-family: 'Brixton_Wood';
+    font-size: 110px;
+   height: fit-content;
+}
+
+@media (max-width: 1000px) {
+    .contact-div{
+        min-height: 90vh;
     }
-    50% {
-        background-position: 100% 50%;
+
+    .contact-body h2{
+        font-size: 36px;
     }
-    100% {
-        background-position: 0% 50%;
+
+    .contact-body p{
+        font-size: 28px;
     }
-}
-
-.contact-card {
-    min-height: fit-content;
-    background-color: whitesmoke;
-    text-align: center;
-    margin-top: 10%;
-    color: black;
-    height: fit-content;
-}
-
-.contact-header {
-    text-align: center;
-    font-style: bold;
-    font-size: 48px;
-}
-
-.contact-content {
-    font-size: 36px;
-    overflow: auto;
-   
-}
-
-.list {
-    list-style: none;
-}
-
-.email-header, .phone-header, .facebook-header {
-    text-shadow: -1px -1px 0 #ff0000, 1px -1px 0 #910000, -1px 1px 0 #ffffff, 1px 1px 0 #000;
 }

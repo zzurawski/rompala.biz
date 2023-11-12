@@ -77,8 +77,9 @@ body{
         position: relative;
         z-index: 3;
         transform: rotateY(0.5turn);
+        background-color: whitesmoke;
         color: #000000;
-        font-size: larger;
+        font-size: large;
       }
     }
   }
@@ -100,4 +101,38 @@ video{
 .coming-soon{
   color: rgb(255, 255, 255);
   font-size: 48px;
+}
+
+a{
+  color: #000000;
+}
+
+.clickhere{
+  color:#000000;
+}
+
+@media (max-width: 1000px) {
+  .homepage{
+    padding-top: 10%;
+    min-height: 80vh;
+  }
+
+  .about-home{
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+
+  .logos{
+    max-height: 10%;
+    height: fit-content;
+  }
+
+  .card{
+    max-height: 5%;
+    max-width: 50%;
+  }
+
+  .card__face--back{
+    display: none;
+  }
 }

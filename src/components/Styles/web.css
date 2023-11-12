@@ -1,0 +1,88 @@
+.webdesign-div{
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Brixton_Wood';
+    text-align: center;
+    padding: 2% 0;
+    border-bottom: 1px solid white;
+    height: fit-content;
+    min-height: 100vh;
+}
+
+.web-body{
+    display: flexbox;
+    padding: 5% 5%;
+    font-family: 'Arial Narrow';
+    height: fit-content;
+    
+    overflow: hidden;
+}
+
+.about{
+    width: 50%;
+    float: right;
+    font-size: xx-large;
+    
+    
+    letter-spacing: 2px;
+}
+
+.img-container{
+    float: left;
+    width: 50%;
+    
+}
+
+.img-container img{
+    max-width: 30%;
+}
+
+.product-container{
+    max-height: 100%;
+    width: 50%;
+    
+}
+
+.product-card img{
+    width: 80%;
+    border-radius: 15px;
+    border: 1px solid white;
+    
+    margin-bottom: 10%;
+}
+
+.about p{
+    letter-spacing: 0;
+    font-family: 'Arial Narrow';
+}
+
+.about h2{
+    letter-spacing: 2px;
+    font-size: larger;
+    font-family: 'Brixton_Wood';
+}
+
+.about a{
+    color: whitesmoke;
+}
+
+@media (max-width: 700px) {
+    .about{
+        font-size: 12px;
+        width: 100%;
+        padding: 2% 5%;
+        padding-left: 1%;
+    }
+
+    .about h2{
+        font-size: 24px;
+    }
+
+    .about a{
+        color: whitesmoke;
+    }
+
+    .product-container{
+        width: 100%;
+    }
+}

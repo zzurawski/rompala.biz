@@ -1,17 +1,39 @@
 {
   "files": {
-    "main.css": "/static/css/main.74d5c8f3.css",
-    "main.js": "/static/js/main.ded19758.js",
+    "main.css": "/static/css/main.36e592e7.css",
+    "main.js": "/static/js/main.cb081bd1.js",
+    "static/media/sm-sample.mp4": "/static/media/sm-sample.e0bac305b2cf25b0ea7b.mp4",
     "static/media/background.mp4": "/static/media/background.43efa7ed389f7761dbe2.mp4",
+    "static/media/Z-SQUARED WEB DESIGN.gif": "/static/media/Z-SQUARED WEB DESIGN.d8895fe13f6b31875677.gif",
+    "static/media/products.jpg": "/static/media/products.f1145a79cb5b8385177f.jpg",
+    "static/media/event.jpg": "/static/media/event.a3e64026eee95ccd8833.jpg",
+    "static/media/headshot.jpg": "/static/media/headshot.0e636d0971f183890e16.jpg",
+    "static/media/familytree.png": "/static/media/familytree.db7c359b8eab640775a6.png",
+    "static/media/washinvest.png": "/static/media/washinvest.e61b572024ac340b8809.png",
+    "static/media/calmwater.png": "/static/media/calmwater.0309af4d9abebe5d7524.png",
+    "static/media/Header banner.jpg": "/static/media/Header banner.ec724713a7c61a4bf824.jpg",
+    "static/media/branding-icon.png": "/static/media/branding-icon.f38344a0366efff2ca74.png",
+    "static/media/social-media-icon.png": "/static/media/social-media-icon.fb398e895fe1d89a4ea9.png",
+    "static/media/serene.png": "/static/media/serene.6fb83a135246e0aea450.png",
     "static/media/brand-icons.svg": "/static/media/brand-icons.6729d29753e000c17489.svg",
+    "static/media/web-design-icon.png": "/static/media/web-design-icon.2a10932ec73168a97fda.png",
+    "static/media/lfa.png": "/static/media/lfa.87872689d8fc6265d3dc.png",
+    "static/media/video-icon.png": "/static/media/video-icon.9ce371460bae4d2593a6.png",
     "static/media/icons.svg": "/static/media/icons.62d9dae4e0040e81c980.svg",
+    "static/media/dd214.png": "/static/media/dd214.1d1c832eedc94788b80c.png",
+    "static/media/Brixton_Wood_PERSONAL_USE_ONLY-Vector.otf": "/static/media/Brixton_Wood_PERSONAL_USE_ONLY-Vector.babcae1b8f2527fe1266.otf",
+    "static/media/archer.png": "/static/media/archer.22b21aed49f50af5f740.png",
     "static/media/rompala-white.png": "/static/media/rompala-white.1bf7b9c15845ea4ae8a9.png",
+    "static/media/sippinsunshine.png": "/static/media/sippinsunshine.4297e67cd33c98e8097a.png",
+    "static/media/printmuse.png": "/static/media/printmuse.0ce0db2b28aa2063a294.png",
+    "static/media/stacker.png": "/static/media/stacker.93e8f286a177aeb4de19.png",
     "static/media/outline-icons.svg": "/static/media/outline-icons.9c4845b4b41ef40a22fa.svg",
     "static/media/icons.eot": "/static/media/icons.a01e3f2d6c83dc3aee17.eot",
     "static/media/icons.ttf": "/static/media/icons.c656b8caa454ed19b9a2.ttf",
     "static/media/brand-icons.eot": "/static/media/brand-icons.d68fa3e67dbb653a13ce.eot",
     "static/media/brand-icons.ttf": "/static/media/brand-icons.65a2fb6d9aaa164b41a0.ttf",
     "static/media/brand-icons.woff": "/static/media/brand-icons.cac87dc00c87a5d74711.woff",
+    "static/media/yt-icon2.png": "/static/media/yt-icon2.9fb074e467dbc1ae5945.png",
     "static/media/brand-icons.woff2": "/static/media/brand-icons.278156e41e0ad908cf7f.woff2",
     "static/media/icons.woff": "/static/media/icons.425399f81e4ce7cbd967.woff",
     "static/media/icons.woff2": "/static/media/icons.38c6d8bab26db77d8c80.woff2",
@@ -21,11 +43,11 @@
     "static/media/outline-icons.woff": "/static/media/outline-icons.ddae9b1ba9b0b42f5880.woff",
     "static/media/outline-icons.woff2": "/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/index.html",
-    "main.74d5c8f3.css.map": "/static/css/main.74d5c8f3.css.map",
-    "main.ded19758.js.map": "/static/js/main.ded19758.js.map"
+    "main.36e592e7.css.map": "/static/css/main.36e592e7.css.map",
+    "main.cb081bd1.js.map": "/static/js/main.cb081bd1.js.map"
   },
   "entrypoints": [
-    "static/css/main.74d5c8f3.css",
-    "static/js/main.ded19758.js"
+    "static/css/main.36e592e7.css",
+    "static/js/main.cb081bd1.js"
   ]
 }
