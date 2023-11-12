@@ -83,7 +83,7 @@ export default function VideoPhoto() {
 
             <div className="sm-footer vp-foot">
                 <h2>START YOUR VIDEO/PHOTO JOURNEY NOW</h2>
-                <a href="/contact" ><p className="learnmore">CLICK HERE TO LEARN MORE</p></a>
+                <a href="https://rompala.biz/contact" ><p className="learnmore">CLICK HERE TO LEARN MORE</p></a>
             </div>
         </div>
     )

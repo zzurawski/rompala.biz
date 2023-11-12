@@ -32,7 +32,7 @@ export default function SocialMedia() {
 
             <div className='sm-footer'>
                 <h2>EVERY SOCIAL MEDIA SERVICE IS CUSTOMIZED TO FIT YOUR GOALS AND BUDGET</h2>
-                <a href='/contact'><p className='learnmore'>CLICK HERE TO LEARN MORE</p></a>
+                <a href='https://rompala.biz/contact'><p className='learnmore'>CLICK HERE TO LEARN MORE</p></a>
             </div>
         </div>
     )

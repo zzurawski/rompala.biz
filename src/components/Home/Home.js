@@ -26,38 +26,38 @@ export default function Home() {
 
         <div className="card">
           <div className="card__face card__face--front">
-            <a href="/socialmedia"><img alt="social media" src={require('../images/social-media-icon.png')} /></a>
+            <a href="https://rompala.biz/socialmedia"><img alt="social media" src={require('../images/social-media-icon.png')} /></a>
           </div>
           <div className="card__face card__face--back">
-            <a href='/socialmedia'><p className="clickhere">Click here to learn more about our Social Media marketing service</p></a>
+            <a href='https://rompala.biz/socialmedia'><p className="clickhere">Click here to learn more about our Social Media marketing service</p></a>
           </div>
         </div>
         
         <div className="card">
           <div className="card__face card__face--front">
-            <a href="/videophoto"><img alt="video icon" src={require('../images/video-icon.png')} /></a>
+            <a href="https://rompala.biz/videophoto"><img alt="video icon" src={require('../images/video-icon.png')} /></a>
           </div>
           <div className="card__face card__face--back">
-            <a href='/videophoto'><p className="clickhere">Click here to learn more about our Video/Photo service</p></a>
+            <a href='https://rompala.biz/videophoto'><p className="clickhere">Click here to learn more about our Video/Photo service</p></a>
           </div>
 
         </div>
         
         <div className="card">
           <div className="card__face card__face--front">
-             <a href="/webdesign"><img alt="web design" src={require('../images/web-design-icon.png')} /></a>  
+             <a href="https://rompala.biz/webdesign"><img alt="web design" src={require('../images/web-design-icon.png')} /></a>  
           </div>
           <div className="card__face card__face--back">
-            <a href="/webdesign"><p className="clickhere">Click here to learn more about our Web Design service</p></a>
+            <a href="https://rompala.biz/webdesign"><p className="clickhere">Click here to learn more about our Web Design service</p></a>
           </div>
         </div>
 
         <div className="card">
           <div className="card__face card__face--front">
-            <a href="/branding"><img alt="branding" src={require('../images/branding-icon.png')}></img></a>
+            <a href="https://rompala.biz/branding"><img alt="branding" src={require('../images/branding-icon.png')}></img></a>
           </div>
           <div className="card__face card__face--back">
-            <a href="/branding"><p className="clickhere">Click here to learn more about our Branding service</p></a>
+            <a href="https://rompala.biz/branding"><p className="clickhere">Click here to learn more about our Branding service</p></a>
           </div>
         </div>
       </span>
