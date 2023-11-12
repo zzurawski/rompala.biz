@@ -16,7 +16,7 @@ export default function SocialMedia() {
                 </div>
                 <div className="sm-bulk">
                     <div className='sm-img'>
-                        <video autoPlay controls>
+                        <video autoPlay playsInline >
                             <source src={require('../components/images/sm-sample.mp4')} type="video/mp4"></source>
                         </video>
                         <p>CUSTOMER RECEIVED OVER 12,000 ENGAGEMENTS OVER THIS ONE POST ALONE</p>

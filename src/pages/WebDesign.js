@@ -45,10 +45,6 @@ export default function WebDesign() {
                         <img alt="web gif example" src={require('../components/images/lfa.png')} />
                         
                     </div>
-                    <div className="product-card">
-                        
-                        <a href="http://z2webdesign.com"><img alt="z-squared web" src={require('../components/images/Z-SQUARED WEB DESIGN.gif')} /></a>
-                    </div>
                 </div>
             </div>
         </div>

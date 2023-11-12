@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="homepage">
       <div className="rompala-home-logo">
-        <video autoPlay muted loop>
+        <video autoPlay muted loop playsInline>
           <source src={require('./background.mp4')} type="video/mp4" />
         </video>
         <div className="image-spot">
