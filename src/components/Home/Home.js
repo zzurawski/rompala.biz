@@ -28,7 +28,7 @@ export default function Home() {
       <span className="logos">
       <Menu.Item
           as={Link}
-          to="/webdesign"
+          to="/socialmedia"
         >
         <div className="card">
           <div className="card__face card__face--front">
@@ -42,7 +42,7 @@ export default function Home() {
 
         <Menu.Item
           as={Link}
-          to="/webdesign"
+          to="/videophoto"
         >
         <div className="card">
           <div className="card__face card__face--front">
@@ -70,7 +70,7 @@ export default function Home() {
 
         <Menu.Item
           as={Link}
-          to="/webdesign"
+          to="/branding"
         >
         <div className="card">
           <div className="card__face card__face--front">
