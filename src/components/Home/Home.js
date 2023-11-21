@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import "./home.css";
 import './background.mp4';
 import { Link } from "react-router-dom";
