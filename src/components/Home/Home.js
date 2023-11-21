@@ -1,10 +1,13 @@
-import React from "react";
+import React, {useState} from "react";
 import "./home.css";
 import './background.mp4';
-
+import { Link } from "react-router-dom";
+import { Menu } from "semantic-ui-react";
 
 
 export default function Home() {
+  
+
   return (
     <div className="homepage">
       <div className="rompala-home-logo">
@@ -23,43 +26,60 @@ export default function Home() {
       </div>
 
       <span className="logos">
+      <Menu.Item
+          as={Link}
+          to="/webdesign"
+        >
+        <div className="card">
+          <div className="card__face card__face--front">
+            <a href="/socialmedia"><img alt="social media" src={require('../images/social-media-icon.png')} /></a>
+          </div>
+          <div className="card__face card__face--back">
+            <a href='/socialmedia'><p className="clickhere">Click here to learn more about our Social Media marketing service</p></a>
+          </div>
+        </div>
+        </Menu.Item>
 
+        <Menu.Item
+          as={Link}
+          to="/webdesign"
+        >
         <div className="card">
           <div className="card__face card__face--front">
-            <a href="https://rompala.biz/socialmedia"><img alt="social media" src={require('../images/social-media-icon.png')} /></a>
+            <a href="rompala.biz/videophoto"><img alt="video icon" src={require('../images/video-icon.png')} /></a>
           </div>
           <div className="card__face card__face--back">
-            <a href='https://rompala.biz/socialmedia'><p className="clickhere">Click here to learn more about our Social Media marketing service</p></a>
+            <a href='rompala.biz/videophoto'><p className="clickhere">Click here to learn more about our Video/Photo service</p></a>
           </div>
         </div>
-        
-        <div className="card">
-          <div className="card__face card__face--front">
-            <a href="https://rompala.biz/videophoto"><img alt="video icon" src={require('../images/video-icon.png')} /></a>
-          </div>
-          <div className="card__face card__face--back">
-            <a href='https://rompala.biz/videophoto'><p className="clickhere">Click here to learn more about our Video/Photo service</p></a>
-          </div>
+        </Menu.Item>
 
-        </div>
-        
+        <Menu.Item
+          as={Link}
+          to="/webdesign"
+        >
         <div className="card">
           <div className="card__face card__face--front">
-             <a href="https://rompala.biz/webdesign"><img alt="web design" src={require('../images/web-design-icon.png')} /></a>  
+             <a href="rompala.biz/webdesign"><img alt="web design" src={require('../images/web-design-icon.png')} /></a>  
           </div>
           <div className="card__face card__face--back">
-            <a href="https://rompala.biz/webdesign"><p className="clickhere">Click here to learn more about our Web Design service</p></a>
+            <a href="/webdesign"><p className="clickhere">Click here to learn more about our Web Design service</p></a>
           </div>
         </div>
+        </Menu.Item>
 
+        <Menu.Item
+          as={Link}
+          to="/webdesign"
+        >
         <div className="card">
           <div className="card__face card__face--front">
-            <a href="https://rompala.biz/branding"><img alt="branding" src={require('../images/branding-icon.png')}></img></a>
+            <a href="/branding"><img alt="branding" src={require('../images/branding-icon.png')}></img></a>
           </div>
           <div className="card__face card__face--back">
-            <a href="https://rompala.biz/branding"><p className="clickhere">Click here to learn more about our Branding service</p></a>
+            <a href="/branding"><p className="clickhere">Click here to learn more about our Branding service</p></a>
           </div>
-        </div>
+        </div></Menu.Item>
       </span>
 
       

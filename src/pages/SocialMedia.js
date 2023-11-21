@@ -1,5 +1,7 @@
 import React from "react";
 import "../components/Styles/main.css"
+import { Link } from "react-router-dom";
+import { Menu } from "semantic-ui-react";
 
 export default function SocialMedia() {
     return (
@@ -32,7 +34,12 @@ export default function SocialMedia() {
 
             <div className='sm-footer'>
                 <h2>EVERY SOCIAL MEDIA SERVICE IS CUSTOMIZED TO FIT YOUR GOALS AND BUDGET</h2>
-                <a href='https://rompala.biz/contact'><p className='learnmore'>CLICK HERE TO LEARN MORE</p></a>
+                <Menu.Item
+                as={Link}
+                to="/contact"
+                >       
+                <p className='learnmore'>CLICK HERE TO LEARN MORE</p>
+                </Menu.Item>
             </div>
         </div>
     )
