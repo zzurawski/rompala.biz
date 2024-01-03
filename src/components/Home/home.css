@@ -10,14 +10,13 @@ body{
 .rompala-home-logo {
     display: flex;
     position: relative;
-    
     background: url('../Home/background.mp4');
     background-size: cover;
 }
 
 .rompala-logo {
-    max-width: 80%;
-    height: 80%;
+    max-width: 100%;
+    height: 100%;
 }
 
 .image-spot{

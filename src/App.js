@@ -8,7 +8,6 @@ import Navbar from "./components/Navbar/Navbar";
 import Contact from "./pages/Contact";
 import Footer from "./components/footer/footer";
 import SocialMedia from "./pages/SocialMedia";
-import WebDesign from "./pages/WebDesign";
 import VideoPhoto from './pages/VideoPhoto';
 import Branding from "./pages/Branding";
 
@@ -39,7 +38,6 @@ function App() {
                 <Routes>
                     <Route path={"/"} element={<Home />} />
                     <Route path={"/socialmedia"} element={<SocialMedia />} />
-                    <Route path={"/webdesign"} element={<WebDesign />} />
                     <Route path={"/videophoto"} element={<VideoPhoto />} />
                     <Route path={"/branding"} element={<Branding />} />
                     <Route path={"/contact"} element={<Contact />} />

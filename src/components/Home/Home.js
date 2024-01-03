@@ -54,19 +54,7 @@ export default function Home() {
         </div>
         </Menu.Item>
 
-        <Menu.Item
-          as={Link}
-          to="/webdesign"
-        >
-        <div className="card">
-          <div className="card__face card__face--front">
-             <a href="rompala.biz/webdesign"><img alt="web design" src={require('../images/web-design-icon.png')} /></a>  
-          </div>
-          <div className="card__face card__face--back">
-            <a href="/webdesign"><p className="clickhere">Click here to learn more about our Web Design service</p></a>
-          </div>
-        </div>
-        </Menu.Item>
+        
 
         <Menu.Item
           as={Link}

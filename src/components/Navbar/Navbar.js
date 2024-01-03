@@ -27,14 +27,7 @@ export default function Navbar() {
           to="/socialmedia"
           id="socialmedia"
         />
-      <Menu.Item
-          name="WEB DESIGN"
-          active={activeItem === "webdesign"}
-          onClick={handleItemClick}
-          as={Link}
-          to="/webdesign"
-          id="webdesign"
-        />
+      
         <Menu.Item
           name="VIDEO/PHOTO"
           active={activeItem === "videophoto"}
